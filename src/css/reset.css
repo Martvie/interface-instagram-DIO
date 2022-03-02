@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --background-container: #ffffff;
+    --link-color:#0095f6;
+    --background-page: rgb(243,243,243);
+}
