@@ -8,6 +8,7 @@
 
 :root{
     --background-container: #ffffff;
-    --link-color:#0095f6;
+    --blue-font:#0095f6;
     --background-page: rgb(243,243,243);
+    --grey-font: rgb(160,160,160)
 }
