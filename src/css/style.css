@@ -3,19 +3,66 @@ html {
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    height: 100vh;
     justify-content: center;
+    background-color: var( --background-page);
+    margin: 0;
+    padding: 0;
 }
 
-.main-container {
+.wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     height: 100vh;
 }
 
-.main-container .cellphone img{
-    width: 70rem;
+.wrapper .cellphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
+
+.wrapper .cellphone img {
+    height: 70rem;
+}
+
+.wrapper .continue-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 55rem;
+}
+
+.wrapper .continue-container .container {
+    background-color: var(--background-container);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 0;
+
+}
+
+.continue-container:nth-child(1){
+    min-height: 30rem;
+}
+
+.container .logo {
+    height: 4.2rem;
+    margin: 1rem;
+}
+
+.container .profile {
+    height: 8.4rem;
+    border-radius: 50%;
+}
+
